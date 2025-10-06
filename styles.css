@@ -1,1 +1,139 @@
 /* your code here */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #00d084;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  border-radius: 10px;
+  max-width: 800px;
+  margin: 4rem auto;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+  overflow: hidden;
+}
+
+.product__photo {
+  flex: 1;
+}
+
+.photo-container {
+  background: linear-gradient(#c6f2a4, #9fd67c);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  position: relative;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.photo-main img {
+  width: 80%;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.photo-album ul {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin-top: 1.5rem;
+  list-style: none;
+}
+
+.photo-album ul li {
+  margin: 0 0.3rem;
+}
+
+.photo-album ul li img {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  transition: 0.3s;
+}
+
+.photo-album ul li img:hover {
+  transform: scale(1.1);
+}
+
+.product__details {
+  flex: 1;
+  padding: 2rem;
+}
+
+.product__details h1 {
+  font-size: 1.8rem;
+  margin: 0;
+}
+
+.code {
+  color: #aaa;
+  font-size: 0.9rem;
+}
+
+.price {
+  margin: 1rem 0;
+  color: #e53935;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+h3 {
+  color: #555;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.variant img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  margin-right: 10px;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: 0.3s;
+}
+
+.variant img:hover {
+  border: 2px solid #e53935;
+}
+
+.description {
+  margin-top: 1rem;
+}
+
+.description h3 {
+  color: #888;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+
+.description ul {
+  list-style: disc;
+  margin-left: 1.2rem;
+  color: #444;
+}
+
+.add-to-cart {
+  margin-top: 1.5rem;
+  background-color: #e53935;
+  color: white;
+  border: none;
+  padding: 0.8rem 1.8rem;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.add-to-cart:hover {
+  background-color: #c62828;
+}

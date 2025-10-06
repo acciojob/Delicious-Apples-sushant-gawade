@@ -5,9 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Delicious Apples</title>
   <link rel="stylesheet" href="apple-style.css">
-</head>
-<body>
-  <div class="container">
+</head><body>
+  <div class="product">
     <div class="product__photo">
       <div class="photo-container">
         <div class="photo-main">
@@ -32,16 +31,18 @@
         <span>R$</span> <span>7.93</span>
       </div>
 
-      <h3>Select a color</h3>
+      <h3>SELECT A COLOR</h3>
       <div class="variant">
-        <img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302064/codepen/delicious-apples/green-apple2.png" onclick="changeApple('green')" alt="Green Apple">
-        <img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302752/codepen/delicious-apples/yellow-apple.png" onclick="changeApple('yellow')" alt="Yellow Apple">
-        <img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302427/codepen/delicious-apples/orange-apple.png" onclick="changeApple('orange')" alt="Orange Apple">
-        <img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302285/codepen/delicious-apples/red-apple.png" onclick="changeApple('red')" alt="Red Apple">
+        <ul>
+          <li><img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302064/codepen/delicious-apples/green-apple2.png" onclick="changeApple('green')" alt="Green Apple"></li>
+          <li><img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302752/codepen/delicious-apples/yellow-apple.png" onclick="changeApple('yellow')" alt="Yellow Apple"></li>
+          <li><img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302427/codepen/delicious-apples/orange-apple.png" onclick="changeApple('orange')" alt="Orange Apple"></li>
+          <li><img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302285/codepen/delicious-apples/red-apple.png" onclick="changeApple('red')" alt="Red Apple"></li>
+        </ul>
       </div>
 
       <div class="description">
-        <h3>Benefits</h3>
+        <h3>BENEFITS</h3>
         <ul>
           <li>Apples are nutritious</li>
           <li>Apples may be good for weight loss</li>
@@ -50,7 +51,7 @@
         </ul>
       </div>
 
-      <button class="add-to-cart">Add to Cart</button>
+      <button class="add-to-cart">ADD TO CART</button>
     </div>
   </div>
 
@@ -67,4 +68,5 @@
     }
   </script>
 </body>
+
 </html>
